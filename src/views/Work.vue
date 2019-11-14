@@ -52,3 +52,22 @@
   }
 }
 </style>
+
+<script>
+import animeClass from "@/anime";
+export default {
+  name: "work",
+  beforeRouteEnter(to, from, next) {
+    next(() => {
+      const anime = new animeClass();
+      anime.runBody();
+    });
+  },
+  beforeRouteLeave(to, from, next) {
+    const anime = new animeClass();
+    anime.leaveBody().then(() => {
+      next();
+    });
+  }
+};
+</script>

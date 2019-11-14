@@ -1,8 +1,12 @@
 <template>
   <nav class="navbar">
     <div class="navbar-menu" ref="menu">
-      <router-link :to="{ name: 'home' }" class="navbar-item">Home</router-link>
-      <router-link :to="{ name: 'work' }" class="navbar-item">Work</router-link>
+      <router-link :to="{ name: 'home' }" class="navbar-item"
+        ><span @click="nav">Home</span></router-link
+      >
+      <router-link :to="{ name: 'work' }" class="navbar-item"
+        ><span @click="nav">Work</span></router-link
+      >
     </div>
     <div class="navbar-burger" @click="nav" ref="burger">
       <span></span>

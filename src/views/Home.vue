@@ -20,7 +20,27 @@
 </template>
 
 <script>
+import animeClass from "@/anime";
 export default {
-  name: "home"
+  name: "home",
+  beforeRouteEnter(to, from, next) {
+    if (to.meta.border && from.path === "/") {
+      next(() => {
+        const anime = new animeClass();
+        anime.runBorder();
+      });
+    } else {
+      next(() => {
+        const anime = new animeClass();
+        anime.runBody();
+      });
+    }
+  },
+  beforeRouteLeave(to, from, next) {
+    const anime = new animeClass();
+    anime.leaveBody().then(() => {
+      next();
+    });
+  }
 };
 </script>
