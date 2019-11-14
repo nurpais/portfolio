@@ -1,18 +1,26 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+  <div class="home-page">
+    <div class="cols">
+      <div class="col is-light flex-center flex-start-mobile is-padding">
+        <h2 class="title">
+          HI, I'm Nurpais. <br />
+          Front-end Developer <br />
+          & Designer
+        </h2>
+      </div>
+      <div class="col is-dark flex-center flex-start is-padding">
+        <p class="text">
+          My name is Nurpais. <br />
+          I’m a Full Stack Web Developer based in SB, Kyrgyzstan. I design and
+          code beautifully simple things, and I love what I do.
+        </p>
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from "@/components/HelloWorld.vue";
-
 export default {
-  name: "home",
-  components: {
-    HelloWorld
-  }
+  name: "home"
 };
 </script>

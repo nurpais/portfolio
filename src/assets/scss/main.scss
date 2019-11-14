@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Big+Shoulders+Text:700&display=swap");
+@import "./minireset";
+
+html {
+  background-color: $bg;
+  font-size: 16px;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  min-width: 300px;
+  overflow: hidden;
+  text-rendering: optimizeLegibility;
+  -webkit-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.4;
+  @media (max-width: 300px) {
+    display: none;
+  }
+}
+
+.wrapper {
+  padding: 2vw;
+  height: 100vh;
+  // background: red;
+  overflow: hidden;
+}
+.cols {
+  display: flex;
+  height: 100%;
+  @media (max-width: $mobile) {
+    flex-direction: column;
+  }
+  .col {
+    flex: 1;
+  }
+}
+
+.is-light {
+  background-color: $light;
+  color: $dark;
+}
+
+.is-dark {
+  background-color: $dark;
+  color: $light;
+}
+.is-padding {
+  padding: 1rem;
+  @media (min-width: $mobile) {
+    padding: 6vw;
+  }
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flex-start {
+  justify-content: flex-start;
+}
+.flex-start-mobile {
+  @media (max-width: $mobile) {
+    justify-content: flex-start;
+  }
+}
+
+.title {
+  font-size: 2.3rem;
+  font-weight: 700;
+  @media (min-width: $mobile) {
+    font-size: 3rem;
+  }
+}
+
+.text {
+  font-size: 1.3rem;
+}
