@@ -2,14 +2,14 @@
   <div class="home-page">
     <div class="cols">
       <div class="col is-light flex-center flex-start-mobile is-padding">
-        <h2 class="title">
+        <h2 class="title content">
           HI, I'm Nurpais. <br />
           Front-end Developer <br />
           & Designer
         </h2>
       </div>
       <div class="col is-dark flex-center flex-start is-padding">
-        <p class="text">
+        <p class="text content">
           My name is Nurpais. <br />
           I’m a Full Stack Web Developer based in SB, Kyrgyzstan. I design and
           code beautifully simple things, and I love what I do.

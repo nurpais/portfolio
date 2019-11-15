@@ -2,7 +2,7 @@
   <div class="work-page">
     <div class="cols">
       <div class="col is-light flex-center flex-start is-padding">
-        <div class="work-list">
+        <div class="work-list content">
           <a href="https://megaweb.kg/" target="_blank" class="work-item"
             >MegaWeb</a
           >
@@ -15,7 +15,7 @@
         </div>
       </div>
       <div class="col is-dark flex-center flex-start is-padding">
-        <p class="text">
+        <p class="text content">
           Here are a few recent projects. <br />
           I'm available for freelance work.
           <br />
