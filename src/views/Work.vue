@@ -28,11 +28,6 @@
   </div>
 </template>
 <style lang="scss">
-.mail {
-  font-weight: 500;
-  color: $light;
-  text-decoration: underline;
-}
 .work-list {
   display: flex;
   flex-direction: column;

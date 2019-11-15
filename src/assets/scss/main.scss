@@ -84,3 +84,10 @@ body {
 .text {
   font-size: 1.3rem;
 }
+
+.mail {
+  font-weight: 500;
+  color: $light;
+  text-decoration: underline;
+  display: block;
+}

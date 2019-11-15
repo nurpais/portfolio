@@ -13,6 +13,9 @@
           My name is Nurpais. <br />
           I’m a Full Stack Web Developer based in SB, Kyrgyzstan. I design and
           code beautifully simple things, and I love what I do.
+          <a href="mailto:orozulbaev@gmail.com" class="mail"
+            >orozulbaev@gmail.com</a
+          >
         </p>
       </div>
     </div>

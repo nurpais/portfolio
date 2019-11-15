@@ -25,7 +25,7 @@
     z-index: 997;
     padding: 4vw;
     font-size: 1.3rem;
-    transition: all 0.3s;
+    transition: transform 0.3s;
     @media (max-width: $mobile) {
       transform: translateY(100vh);
       left: 0;

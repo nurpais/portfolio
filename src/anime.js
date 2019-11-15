@@ -32,14 +32,14 @@ export default class {
     tl.to(this.border[3], { height: "100vh", ease: "none", duration: 1 / 3 });
 
     // body
-    tl.to(this.col[0], { x: 0, ease: "power2.out", duration: 1 / 1.5 }, "-=.2");
+    tl.to(this.col[0], { x: 0, ease: "power2.out", duration: 1 / 1.5 }, "-=0.07");
     tl.to(this.col[1], { y: 0, ease: "power2.out", duration: 1 / 1.5, onComplete: () => { } }, "-=.4");
 
     tl.to(this.content, { opacity: 1, ease: "none", stagger: ".2" }, "-=.2");
     // navbar
 
 
-    tl.to(this.navbar, { opacity: 1, ease: "none", duration: .2 }, "-=.4");
+    tl.to(this.navbar, { opacity: 1, ease: "none", duration: .2 }, "-=.2");
 
 
   }
